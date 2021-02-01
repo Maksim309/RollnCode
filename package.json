@@ -1,0 +1,53 @@
+{
+  "name": "webPack",
+  "version": "1.0.0",
+  "description": "Template for start node development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "author": "deSilence",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.5.2",
+    "date-fns": "^2.16.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "pdfjs": "^2.4.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-data-table-component": "^1.7.4",
+    "react-datepicker": "^2.16.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^2.4.4",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^10.1.0",
+    "select2": "^4.0.13",
+    "styled-components": "^4.4.1"
+  }
+}
